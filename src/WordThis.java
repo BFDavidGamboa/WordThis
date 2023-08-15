@@ -4,7 +4,6 @@ public class WordThis {
     public static void main(String[] args) {
         Person person = new Person("Juan");
     }
-
 }
 
 
@@ -13,7 +12,6 @@ class Person {
     Person(String name) {
         this.name = name;
         System.out.println("Printing the operator this inside the person class" + this); //This points to an object type person in this moment
-
         Print print = new Print();
         print.print(this); //This contains a reference to person object
     }
